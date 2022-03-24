@@ -1,0 +1,56 @@
+<h1 id="calculatorarg-und-calculatorsys-readme">CalculatorArg und
+CalculatorSys ReadME</h1>
+<h3 id="einführung">Einführung</h3>
+<p>Dies ist eine simple Erklärung zur Aufgabenstellung und Durchführung
+der ersten Übung von Porgrammieren II in diesen Semester. Das Projekt
+war aufgeteilt in folgende 2 Java-Klassen:</p>
+<ol type="1">
+<li><strong>CalculatorArg</strong></li>
+<li><strong>CalculatorSys</strong></li>
+</ol>
+<p>Aufgaben von beiden war es einen simplen “+-/*” Rechner darzustellen,
+einmal mit Eingaben mithilfe Java.scanner
+(<strong>CalculatorSys</strong>tem) in der Konsole und einmal über
+Java-Kommandozeilenparameter (<strong>CalculatorArg</strong>uments).</p>
+<h3 id="installierungshilfe">Installierungshilfe</h3>
+<p>Die beiden Porgamme zu intstallieren ist extrem leicht, benutzte sie
+wie jede andere Java-Klasse. Sie sind beide voneinander unabhängig.
+Falls Sie nicht wissen, wie sie eine Java-Klasse starten empfehle ich
+folgenden Link der Sie zu einer sehr hilfreichen Webseite dazu führt. <a
+href="https://letmegooglethat.com/?q=Wie+startet+man+eine+Java+Klasse"><strong>Bitte
+hier klicken</strong></a></p>
+<h3 id="erklärung-des-programmes">Erklärung des Programmes</h3>
+<p>Das Programm selbst ist simple und ich würde eine Klasse nach der
+anderen erklären.</p>
+<p><strong>CalculatorArg</strong> fangt mit einem trycatch Befehl an der
+die drei Parameter (Variable1,Operator,Variable 2) aus der Kommandozeile
+herausnimmt und die Variablen in Doubles und den Operator in char
+verwandelt. Falls hier Fehler auftreten (nicht genug Angaben in
+Kommandozeile, falsche Angaben, keine Angaben etc.) wird sofort eine
+Error Message gegeben und das Programm geschlossen. Danach wird anhand
+eines Switch Befehles mithilfe des Operator entschieden, welchen
+Rechenweg man benutzt und darauf erhält man das Ergebniss in der Konsole
+in folgenden Format:
+<code>Variable1 Operator Variable2 = Ergebnis</code></p>
+<p><strong>CalculatorSys</strong> fangt mit 2 Methoden an die dazu
+dienen Doubles und Charactere einzulesen. Dies passiert hauptsächlich
+über folgende Befehle: 1.
+<code>Double.parseDouble(scanner.nextLine())</code> 2.
+<code>String=scanner.nextLine();String = placeholder.charAt(0);</code></p>
+<p>Doubles werden für Variablen benutzt und Character für dern Operator.
+Dann ist es ähnlich, wie bei der anderen Klasse, wo durch ein Switch
+Kommand der Rechenbefehl durch den Operator ausgelöst wird.</p>
+<h3 id="außnahmen-und-systemfehler-außerhalb-des-beispiels">Außnahmen
+und Systemfehler außerhalb des Beispiels</h3>
+<p>Zusätzlich zu den gegebenen Außnahmen haben ich noch eine weitere
+Ausßname hinzugefügt: “Error -Divison through 0”. Sobald der Operator
+“/” ist und Variable2 “0” ist, wird dieser Fehler ausgegeben.</p>
+<h3 id="kontakt">Kontakt</h3>
+<p>Für jegliche Fragen zu diesen Programm melden sie sich bitte an
+meineemailadresse@gmail.com.</p>
+<figure>
+<img
+src="https://techvig.net/wp-content/uploads/2020/11/Solution-pii_email_9c55590039c2c629ec55-Error-Code.jpg"
+alt="Error Code" />
+<figcaption aria-hidden="true">Error Code</figcaption>
+</figure>
