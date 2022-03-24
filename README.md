@@ -16,5 +16,15 @@ This example has noted and explained the most common git-commands. Tasks were cr
    - [pdf.-Link](exercise1.pdf)
    - [html.-Link](exercise1.html)
 
-2.exercise1.md
-   -[md.-Link](exercise2.md) 
+2. exercise1.md
+   - [md.-Link](exercise2.md) 
+
+
+
+### Autordata and Links
+- Martin Unterwieser
+- [Github](https://github.com/Martin2525/Martin2525.github.io)
+- [FH Campus02](https://www.campus02.at/)
+
+
+
