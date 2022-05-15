@@ -10,6 +10,7 @@ public class Main {
         double subtraction;
         double division;
         double multiplication;
+        double factorial;
 
         Calculator calc = new Calculator();
 
@@ -19,12 +20,14 @@ public class Main {
         subtraction = calc.minus(number1,number2);
         division = calc.divide(number1,number2);
         multiplication = calc.multiply(number1,number2);
+        factorial = calc.factorial(number1);
 
 
         System.out.println("Result of  the Addition is: " + addition);
         System.out.println("Result of the Subtraction is: " + subtraction);
         System.out.println("Result of the Division is: " + division);
         System.out.println("Result of the Multiplication is: " + multiplication);
+        System.out.println("Result of the Factorial is: " + factorial);
 
     }
 

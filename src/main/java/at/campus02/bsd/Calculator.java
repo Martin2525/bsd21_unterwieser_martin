@@ -25,6 +25,15 @@ public class Calculator {
         return number1*number2;
     }
 
+    public double factorial(double number1){
+        int result = 1;
+        
+        for (int factor = 2; factor <= number1; factor++) {
+            result *= factor;
+        }
+        return result;
+    }
+
 
 
 }
