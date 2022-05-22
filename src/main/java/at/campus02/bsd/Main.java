@@ -1,6 +1,13 @@
 package at.campus02.bsd;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.log4j.*;
+
+
 public class Main {
+
+    private static Logger logger = LogManager.getLogger();
 
     public static void main(String[] args) {
         double number1 = 10;
@@ -13,6 +20,8 @@ public class Main {
         double factorial;
 
         Calculator calc = new Calculator();
+        logger.info("This info message should show up");
+        logger.error("This error message should show up");
 
 
 
