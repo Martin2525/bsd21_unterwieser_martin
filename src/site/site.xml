@@ -1,0 +1,14 @@
+<project name="Caluclator Demo excercise">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+    <menu name="Overview">
+    <item name="Good_Style" href="markdown/good_style.md"/>
+    <item name="Test" href="test.html"/>
+    <item name="Drinks" href="drinks.html"/>
+    </menu>
+    <menu ref="reports"/>
+    <menu ref="parent"/>
+    <menu ref="modules"/>
+    </body>
+    </project>

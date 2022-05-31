@@ -32,6 +32,13 @@ Kinda failed at this one because i screwed up my pom file.
  - [md.-Link](exercise4.md) 
 
 
+ 5. exercise5.md
+ - [md.-Link](exercise5.md) 
+
+ 6. exercise6.md
+ - [md.-Link](exercise6.md) 
+
+
 ### Autordata and Links
 - Martin Unterwieser
 - [Github](https://github.com/Martin2525/Martin2525.github.io)
