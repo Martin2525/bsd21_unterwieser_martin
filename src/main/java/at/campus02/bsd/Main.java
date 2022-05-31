@@ -2,7 +2,7 @@ package at.campus02.bsd;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.log4j.*;
+//import org.apache.log4j.*;
 
 
 public class Main {
